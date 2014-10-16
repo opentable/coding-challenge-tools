@@ -73,15 +73,6 @@ instance providing a JSON in/out RESTful API. Feel free to use any other
 technologies provided that the general client/service architecture is
 respected.
 
-Choose **one** of the following technical tracks that best suits your skillset:
-
-1. **Full-stack**: include both front-end and back-end.
-2. **Back-end track**: include a minimal front-end (e.g. a static view or API
-   docs). Write, document and test your API as if it will be used by other
-   services.
-3. **Front-end track**: include a minimal back-end, or use the data service
-   directly. Focus on making the interface as polished as possible.
-
 ### Back-end
 
 We believe there is no one-size-fits-all technology. Good engineering is about
@@ -93,13 +84,11 @@ your challenge.
 Here are some technologies we are more familiar with:
 
 * **Python** (most of our back-end uses this language)
+* Java
 * JavaScript
+* C++
 * Ruby
 * PHP
-* Go
-* C++
-* Haskell
-* Java
 
 You are also free to use any web framework. If you choose to use a framework
 that results in boilerplate code in the repository, please detail in your
@@ -107,14 +96,15 @@ README which code was written by you (as opposed to generated code).
 
 ### Front-end
 
+Because most of our server-side development results in API servers, we're 
+looking for only a light, simple front-end to be included in your project. It
+should still be intuitivie to use though.
+
 The front-end should ideally be a single page app with a single `index.html`
 linking to external JS/CSS/etc. You may take this opportunity to demonstrate
-your CSS3 or HTML5 knowledge.
-
-We recommend using [Backbone.js](http://documentcloud.github.com/backbone/) for
-front-end MVC, and recommend against using heavier front-end frameworks (like
-Angular, for example). That way we can get better insight into your thought
-process and your understanding of the framework itself.
+your CSS3 or HTML5 knowledge. Or feel free to use frameworks such as 
+[Backbone.js](http://documentcloud.github.com/backbone/) or 
+[AngularJS](https://angularjs.org/) for front-end MVC.
 
 Host it!
 --------
