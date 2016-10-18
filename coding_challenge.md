@@ -48,7 +48,8 @@ Locations](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in
 Create a service that accepts the necessary information and sends emails. It
 should provide an abstraction between two different email service providers.
 If one of the services goes down, your service can quickly failover to
-a different provider without affecting your customers.
+a different provider without affecting your customers. Failover and failback
+should be automatic.
 
 Example Email Providers:
 
