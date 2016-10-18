@@ -31,6 +31,7 @@ Here are some examples of freely available data:
 * [511](http://511.org/developer-resources_transit-api.asp) (San Francisco)
 * [Nextbus](http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf) (San
   Francisco)
+* [Transport for London Unified API](https://api.tfl.gov.uk/) (London)
 
 ### SF Movies
 
@@ -53,8 +54,9 @@ Example Email Providers:
 * [SendGrid](https://sendgrid.com/user/signup) - [Simple Send Documentation](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
 * [Mailgun](http://www.mailgun.com) - [Simple Send Documentation](http://documentation.mailgun.com/quickstart.html#sending-messages)
 * [Mandrill](https://mandrillapp.com) - [Simple Send Documentation](https://mandrillapp.com/api/docs/messages.JSON.html#method-send)
+* [Amazon SES](http://aws.amazon.com/ses/) - [Simple Send Documentation](http://docs.aws.amazon.com/ses/latest/APIReference/API_SendEmail.html)
 
-All three services are free to try and are pretty painless to sign up for, so
+All listed services are free to try and are pretty painless to sign up for, so
 please register your own test accounts on each.
 
 ### Food Trucks
@@ -102,12 +104,19 @@ should still be intuitivie to use though.
 
 The front-end should ideally be a single page app with a single `index.html`
 linking to external JS/CSS/etc. You may take this opportunity to demonstrate
-your CSS3 or HTML5 knowledge. Or feel free to use frameworks such as 
-[Backbone.js](http://documentcloud.github.com/backbone/) or 
-[AngularJS](https://angularjs.org/) for front-end MVC.
+your CSS3 or HTML5 knowledge.
+
+We recommend using [Backbone.js](http://documentcloud.github.com/backbone/) for
+front-end MVC, and recommend against using heavier front-end frameworks (like
+Angular, for example). That way we can get better insight into your thought
+process and your understanding of the framework itself.
 
 Host it!
 --------
 
-When you’re done, host it somewhere (e.g. on Amazon EC2, Heroku, Google
-AppEngine, etc.).
+When you’re done, host it somewhere (e.g. on Amazon EC2, Heroku, Google AppEngine, etc.).
+
+How will we review?
+-------------------
+
+[Guidelines can be found here](https://github.com/uber/coding-challenge-tools/blob/master/README.md)
