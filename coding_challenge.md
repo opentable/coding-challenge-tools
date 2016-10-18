@@ -85,12 +85,10 @@ your challenge.
 
 Here are some technologies we are more familiar with:
 
-* **Python** (most of our back-end uses this language)
+* **Python** 
+* **Node** 
 * Java
-* JavaScript
-* C++
-* Ruby
-* PHP
+* C#
 
 You are also free to use any web framework. If you choose to use a framework
 that results in boilerplate code in the repository, please detail in your
@@ -100,7 +98,7 @@ README which code was written by you (as opposed to generated code).
 
 Because most of our server-side development results in API servers, we're 
 looking for only a light, simple front-end to be included in your project. It
-should still be intuitivie to use though.
+should still be intuitive to use though.
 
 The front-end should ideally be a single page app with a single `index.html`
 linking to external JS/CSS/etc. You may take this opportunity to demonstrate
@@ -108,8 +106,8 @@ your CSS3 or HTML5 knowledge.
 
 We recommend using [Backbone.js](http://documentcloud.github.com/backbone/) for
 front-end MVC, and recommend against using heavier front-end frameworks (like
-Angular, for example). That way we can get better insight into your thought
-process and your understanding of the framework itself.
+Angular, for example, though we use Angular a lot). That way we can get better 
+insight into your thought process and your understanding of the framework itself.
 
 Host it!
 --------
@@ -119,4 +117,4 @@ When you’re done, host it somewhere (e.g. on Amazon EC2, Heroku, Google AppEng
 How will we review?
 -------------------
 
-[Guidelines can be found here](https://github.com/uber/coding-challenge-tools/blob/master/README.md)
+[Guidelines can be found here](https://github.com/opentable/coding-challenge-tools/blob/master/README.md)
