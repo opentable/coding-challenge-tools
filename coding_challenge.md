@@ -17,6 +17,7 @@ Prototype **one** of the following projects:
 2. SF Movies
 3. Email Service
 4. Food Trucks
+5. Thumbnail Generator Service
 
 The UX/UI is totally up to you. If you like, get creative and add additional
 features a user might find useful!
@@ -66,6 +67,15 @@ near a specific location on a map.
 
 The data is available on [DataSF](http://www.datasf.org/): [Food
 Trucks](https://data.sfgov.org/Permitting/Mobile-Food-Facility-Permit/rqzj-sfat)
+
+### Thumbnail Generator Service
+
+Create a backend-service that watches a S3 bucket for new photos coming in, and 
+creates thumbnails for those photos (and saves them in a different folder). Create 
+and serve a webpage to view all the thumbnails. We will test by using the S3 UI 
+to upload photos directly to S3, but it'll be great if you also provide a webpage 
+to upload photos. 
+
 
 Technical spec
 --------------
